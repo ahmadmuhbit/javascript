@@ -1,0 +1,15 @@
+function nestedObject(){
+  var mahasiswa = {
+    nama: "Ilham",
+    ipk: {
+      semester1 : 3.5,
+      semester2 : 3.75,
+      semester3 : 3.4,
+      semester4 : 4,
+    }
+
+  }
+  console.log(mahasiswa.ipk.semester2)
+}
+
+nestedObject();
